@@ -264,6 +264,11 @@
     <Resource Include="Images\folder_redOpen_16x16.png" />
     <Resource Include="Images\folder_yellowOpen_16x16.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB\CopyContextContent.sql" />
+    <Content Include="DB\CopyContextToContext.sql" />
+    <Content Include="DB\CreateContext.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
