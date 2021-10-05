@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_DBcache" targetNamespace="http://tempuri.org/DataSet_DBcache.xsd" xmlns:mstns="http://tempuri.org/DataSet_DBcache.xsd" xmlns="http://tempuri.org/DataSet_DBcache.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="STConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="STConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OTR.WPF.DIP.Controls.Properties.Settings.GlobalReference.Default.STConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_DBcache" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_DBcache" msprop:Generator_UserDSName="DataSet_DBcache">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Context" msprop:Generator_TableClassName="ContextDataTable" msprop:Generator_TableVarName="tableContext" msprop:Generator_TablePropName="Context" msprop:Generator_RowDeletingName="ContextRowDeleting" msprop:Generator_RowChangingName="ContextRowChanging" msprop:Generator_RowEvHandlerName="ContextRowChangeEventHandler" msprop:Generator_RowDeletedName="ContextRowDeleted" msprop:Generator_UserTableName="Context" msprop:Generator_RowChangedName="ContextRowChanged" msprop:Generator_RowEvArgName="ContextRowChangeEvent" msprop:Generator_RowClassName="ContextRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" />
+              <xs:element name="cat_code" msprop:Generator_ColumnVarNameInTable="columncat_code" msprop:Generator_ColumnPropNameInRow="cat_code" msprop:Generator_ColumnPropNameInTable="cat_codeColumn" msprop:Generator_UserColumnName="cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_txt" msprop:Generator_ColumnVarNameInTable="columnname_txt" msprop:Generator_ColumnPropNameInRow="name_txt" msprop:Generator_ColumnPropNameInTable="name_txtColumn" msprop:Generator_UserColumnName="name_txt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="security_clsfc_id" msprop:Generator_ColumnVarNameInTable="columnsecurity_clsfc_id" msprop:Generator_ColumnPropNameInRow="security_clsfc_id" msprop:Generator_ColumnPropNameInTable="security_clsfc_idColumn" msprop:Generator_UserColumnName="security_clsfc_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="oig_cat_code" msprop:Generator_ColumnVarNameInTable="columnoig_cat_code" msprop:Generator_ColumnPropNameInRow="oig_cat_code" msprop:Generator_ColumnPropNameInTable="oig_cat_codeColumn" msprop:Generator_UserColumnName="oig_cat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oig_is_own" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnoig_is_own" msprop:Generator_ColumnPropNameInRow="oig_is_own" msprop:Generator_ColumnPropNameInTable="oig_is_ownColumn" msprop:Generator_UserColumnName="oig_is_own" type="xs:int" minOccurs="0" />
+              <xs:element name="creator_id" msprop:Generator_ColumnVarNameInTable="columncreator_id" msprop:Generator_ColumnPropNameInRow="creator_id" msprop:Generator_ColumnPropNameInTable="creator_idColumn" msprop:Generator_UserColumnName="creator_id" type="xs:decimal" />
+              <xs:element name="resp_org_id" msprop:Generator_ColumnVarNameInTable="columnresp_org_id" msprop:Generator_ColumnPropNameInRow="resp_org_id" msprop:Generator_ColumnPropNameInTable="resp_org_idColumn" msprop:Generator_UserColumnName="resp_org_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="resp_org_name" msprop:Generator_ColumnVarNameInTable="columnresp_org_name" msprop:Generator_ColumnPropNameInRow="resp_org_name" msprop:Generator_ColumnPropNameInTable="resp_org_nameColumn" msprop:Generator_UserColumnName="resp_org_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oig_cat_code_NAZEV" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnoig_cat_code_NAZEV" msprop:Generator_ColumnPropNameInRow="oig_cat_code_NAZEV" msprop:Generator_ColumnPropNameInTable="oig_cat_code_NAZEVColumn" msprop:Generator_UserColumnName="oig_cat_code_NAZEV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ContextAssoc" msprop:Generator_TableClassName="ContextAssocDataTable" msprop:Generator_TableVarName="tableContextAssoc" msprop:Generator_TablePropName="ContextAssoc" msprop:Generator_RowDeletingName="ContextAssocRowDeleting" msprop:Generator_RowChangingName="ContextAssocRowChanging" msprop:Generator_RowEvHandlerName="ContextAssocRowChangeEventHandler" msprop:Generator_RowDeletedName="ContextAssocRowDeleted" msprop:Generator_UserTableName="ContextAssoc" msprop:Generator_RowChangedName="ContextAssocRowChanged" msprop:Generator_RowEvArgName="ContextAssocRowChangeEvent" msprop:Generator_RowClassName="ContextAssocRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="subj_contxt_id" msprop:Generator_ColumnVarNameInTable="columnsubj_contxt_id" msprop:Generator_ColumnPropNameInRow="subj_contxt_id" msprop:Generator_ColumnPropNameInTable="subj_contxt_idColumn" msprop:Generator_UserColumnName="subj_contxt_id" type="xs:decimal" />
+              <xs:element name="obj_contxt_id" msprop:Generator_ColumnVarNameInTable="columnobj_contxt_id" msprop:Generator_ColumnPropNameInRow="obj_contxt_id" msprop:Generator_ColumnPropNameInTable="obj_contxt_idColumn" msprop:Generator_UserColumnName="obj_contxt_id" type="xs:decimal" />
+              <xs:element name="assoc_cat_code" msprop:Generator_ColumnVarNameInTable="columnassoc_cat_code" msprop:Generator_ColumnPropNameInRow="assoc_cat_code" msprop:Generator_ColumnPropNameInTable="assoc_cat_codeColumn" msprop:Generator_UserColumnName="assoc_cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_contxt_name_txt" msprop:Generator_ColumnVarNameInTable="columnobj_contxt_name_txt" msprop:Generator_ColumnPropNameInRow="obj_contxt_name_txt" msprop:Generator_ColumnPropNameInTable="obj_contxt_name_txtColumn" msprop:Generator_UserColumnName="obj_contxt_name_txt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subj_contxt_name_txt" msprop:Generator_ColumnVarNameInTable="columnsubj_contxt_name_txt" msprop:Generator_ColumnPropNameInRow="subj_contxt_name_txt" msprop:Generator_ColumnPropNameInTable="subj_contxt_name_txtColumn" msprop:Generator_UserColumnName="subj_contxt_name_txt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="effctv_dttm" msprop:Generator_ColumnVarNameInTable="columneffctv_dttm" msprop:Generator_ColumnPropNameInRow="effctv_dttm" msprop:Generator_ColumnPropNameInTable="effctv_dttmColumn" msprop:Generator_UserColumnName="effctv_dttm">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_contxt_cat_code" msprop:Generator_ColumnVarNameInTable="columnobj_contxt_cat_code" msprop:Generator_ColumnPropNameInRow="obj_contxt_cat_code" msprop:Generator_ColumnPropNameInTable="obj_contxt_cat_codeColumn" msprop:Generator_UserColumnName="obj_contxt_cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subj_contxt_cat_code" msprop:Generator_ColumnVarNameInTable="columnsubj_contxt_cat_code" msprop:Generator_ColumnPropNameInRow="subj_contxt_cat_code" msprop:Generator_ColumnPropNameInTable="subj_contxt_cat_codeColumn" msprop:Generator_UserColumnName="subj_contxt_cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subj_contxt_cat_code_NAZEV" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsubj_contxt_cat_code_NAZEV" msprop:Generator_ColumnPropNameInRow="subj_contxt_cat_code_NAZEV" msprop:Generator_ColumnPropNameInTable="subj_contxt_cat_code_NAZEVColumn" msprop:Generator_UserColumnName="subj_contxt_cat_code_NAZEV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Z_TRASH" msprop:Generator_TableClassName="Z_TRASHDataTable" msprop:Generator_TableVarName="tableZ_TRASH" msprop:Generator_TablePropName="Z_TRASH" msprop:Generator_RowDeletingName="Z_TRASHRowDeleting" msprop:Generator_RowChangingName="Z_TRASHRowChanging" msprop:Generator_RowEvHandlerName="Z_TRASHRowChangeEventHandler" msprop:Generator_RowDeletedName="Z_TRASHRowDeleted" msprop:Generator_UserTableName="Z_TRASH" msprop:Generator_RowChangedName="Z_TRASHRowChanged" msprop:Generator_RowEvArgName="Z_TRASHRowChangeEvent" msprop:Generator_RowClassName="Z_TRASHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ORG_STRUCT_DET_CONTXT" msprop:Generator_TableClassName="ORG_STRUCT_DET_CONTXTDataTable" msprop:Generator_TableVarName="tableORG_STRUCT_DET_CONTXT" msprop:Generator_TablePropName="ORG_STRUCT_DET_CONTXT" msprop:Generator_RowDeletingName="ORG_STRUCT_DET_CONTXTRowDeleting" msprop:Generator_RowChangingName="ORG_STRUCT_DET_CONTXTRowChanging" msprop:Generator_RowEvHandlerName="ORG_STRUCT_DET_CONTXTRowChangeEventHandler" msprop:Generator_RowDeletedName="ORG_STRUCT_DET_CONTXTRowDeleted" msprop:Generator_UserTableName="ORG_STRUCT_DET_CONTXT" msprop:Generator_RowChangedName="ORG_STRUCT_DET_CONTXTRowChanged" msprop:Generator_RowEvArgName="ORG_STRUCT_DET_CONTXTRowChangeEvent" msprop:Generator_RowClassName="ORG_STRUCT_DET_CONTXTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="org_id" msprop:Generator_ColumnVarNameInTable="columnorg_id" msprop:Generator_ColumnPropNameInRow="org_id" msprop:Generator_ColumnPropNameInTable="org_idColumn" msprop:Generator_UserColumnName="org_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="org_ix" msprop:Generator_ColumnVarNameInTable="columnorg_ix" msprop:Generator_ColumnPropNameInRow="org_ix" msprop:Generator_ColumnPropNameInTable="org_ixColumn" msprop:Generator_UserColumnName="org_ix" type="xs:decimal" minOccurs="0" />
+              <xs:element name="subj_id" msprop:Generator_ColumnVarNameInTable="columnsubj_id" msprop:Generator_ColumnPropNameInRow="subj_id" msprop:Generator_ColumnPropNameInTable="subj_idColumn" msprop:Generator_UserColumnName="subj_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="obj_id" msprop:Generator_ColumnVarNameInTable="columnobj_id" msprop:Generator_ColumnPropNameInRow="obj_id" msprop:Generator_ColumnPropNameInTable="obj_idColumn" msprop:Generator_UserColumnName="obj_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="obj_name" msprop:Generator_ColumnVarNameInTable="columnobj_name" msprop:Generator_ColumnPropNameInRow="obj_name" msprop:Generator_ColumnPropNameInTable="obj_nameColumn" msprop:Generator_UserColumnName="obj_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_sname" msprop:Generator_ColumnVarNameInTable="columnobj_sname" msprop:Generator_ColumnPropNameInRow="obj_sname" msprop:Generator_ColumnPropNameInTable="obj_snameColumn" msprop:Generator_UserColumnName="obj_sname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_cat_code" msprop:Generator_ColumnVarNameInTable="columnobj_cat_code" msprop:Generator_ColumnPropNameInRow="obj_cat_code" msprop:Generator_ColumnPropNameInTable="obj_cat_codeColumn" msprop:Generator_UserColumnName="obj_cat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hstly_code" msprop:Generator_ColumnVarNameInTable="columnhstly_code" msprop:Generator_ColumnPropNameInRow="hstly_code" msprop:Generator_ColumnPropNameInTable="hstly_codeColumn" msprop:Generator_UserColumnName="hstly_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_code" msprop:Generator_ColumnVarNameInTable="columncat_code" msprop:Generator_ColumnPropNameInRow="cat_code" msprop:Generator_ColumnPropNameInTable="cat_codeColumn" msprop:Generator_UserColumnName="cat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subcat_code" msprop:Generator_ColumnVarNameInTable="columnsubcat_code" msprop:Generator_ColumnPropNameInRow="subcat_code" msprop:Generator_ColumnPropNameInTable="subcat_codeColumn" msprop:Generator_UserColumnName="subcat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="assoc_type" msprop:Generator_ColumnVarNameInTable="columnassoc_type" msprop:Generator_ColumnPropNameInRow="assoc_type" msprop:Generator_ColumnPropNameInTable="assoc_typeColumn" msprop:Generator_UserColumnName="assoc_type" type="xs:int" minOccurs="0" />
+              <xs:element name="lvl" msprop:Generator_ColumnVarNameInTable="columnlvl" msprop:Generator_ColumnPropNameInRow="lvl" msprop:Generator_ColumnPropNameInTable="lvlColumn" msprop:Generator_UserColumnName="lvl" type="xs:int" minOccurs="0" />
+              <xs:element name="org_name" msprop:Generator_ColumnVarNameInTable="columnorg_name" msprop:Generator_ColumnPropNameInRow="org_name" msprop:Generator_ColumnPropNameInTable="org_nameColumn" msprop:Generator_UserColumnName="org_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_code_NAZEV" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncat_code_NAZEV" msprop:Generator_ColumnPropNameInRow="cat_code_NAZEV" msprop:Generator_ColumnPropNameInTable="cat_code_NAZEVColumn" msprop:Generator_UserColumnName="cat_code_NAZEV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subcat_code_NAZEV" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsubcat_code_NAZEV" msprop:Generator_ColumnPropNameInRow="subcat_code_NAZEV" msprop:Generator_ColumnPropNameInTable="subcat_code_NAZEVColumn" msprop:Generator_UserColumnName="subcat_code_NAZEV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CONTXT_ACT" msprop:Generator_TableClassName="CONTXT_ACTDataTable" msprop:Generator_TableVarName="tableCONTXT_ACT" msprop:Generator_TablePropName="CONTXT_ACT" msprop:Generator_RowDeletingName="CONTXT_ACTRowDeleting" msprop:Generator_RowChangingName="CONTXT_ACTRowChanging" msprop:Generator_RowEvHandlerName="CONTXT_ACTRowChangeEventHandler" msprop:Generator_RowDeletedName="CONTXT_ACTRowDeleted" msprop:Generator_UserTableName="CONTXT_ACT" msprop:Generator_RowChangedName="CONTXT_ACTRowChanged" msprop:Generator_RowEvArgName="CONTXT_ACTRowChangeEvent" msprop:Generator_RowClassName="CONTXT_ACTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" />
+              <xs:element name="act_id" msprop:Generator_ColumnVarNameInTable="columnact_id" msprop:Generator_ColumnPropNameInRow="act_id" msprop:Generator_ColumnPropNameInTable="act_idColumn" msprop:Generator_UserColumnName="act_id" type="xs:decimal" />
+              <xs:element name="cat_code" msprop:Generator_ColumnVarNameInTable="columncat_code" msprop:Generator_ColumnPropNameInRow="cat_code" msprop:Generator_ColumnPropNameInTable="cat_codeColumn" msprop:Generator_UserColumnName="cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_txt" msprop:Generator_ColumnVarNameInTable="columnname_txt" msprop:Generator_ColumnPropNameInRow="name_txt" msprop:Generator_ColumnPropNameInTable="name_txtColumn" msprop:Generator_UserColumnName="name_txt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hstly_code" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnhstly_code" msprop:Generator_ColumnPropNameInRow="hstly_code" msprop:Generator_ColumnPropNameInTable="hstly_codeColumn" msprop:Generator_UserColumnName="hstly_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="popis" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnpopis" msprop:Generator_ColumnPropNameInRow="popis" msprop:Generator_ColumnPropNameInTable="popisColumn" msprop:Generator_UserColumnName="popis" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CONTXT_OBJ_ITEM_FREE" msprop:Generator_TableClassName="CONTXT_OBJ_ITEM_FREEDataTable" msprop:Generator_TableVarName="tableCONTXT_OBJ_ITEM_FREE" msprop:Generator_TablePropName="CONTXT_OBJ_ITEM_FREE" msprop:Generator_RowDeletingName="CONTXT_OBJ_ITEM_FREERowDeleting" msprop:Generator_RowChangingName="CONTXT_OBJ_ITEM_FREERowChanging" msprop:Generator_RowEvHandlerName="CONTXT_OBJ_ITEM_FREERowChangeEventHandler" msprop:Generator_RowDeletedName="CONTXT_OBJ_ITEM_FREERowDeleted" msprop:Generator_UserTableName="CONTXT_OBJ_ITEM_FREE" msprop:Generator_RowChangedName="CONTXT_OBJ_ITEM_FREERowChanged" msprop:Generator_RowEvArgName="CONTXT_OBJ_ITEM_FREERowChangeEvent" msprop:Generator_RowClassName="CONTXT_OBJ_ITEM_FREERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" />
+              <xs:element name="obj_item_id" msprop:Generator_ColumnVarNameInTable="columnobj_item_id" msprop:Generator_ColumnPropNameInRow="obj_item_id" msprop:Generator_ColumnPropNameInTable="obj_item_idColumn" msprop:Generator_UserColumnName="obj_item_id" type="xs:decimal" />
+              <xs:element name="cat_code" msprop:Generator_ColumnVarNameInTable="columncat_code" msprop:Generator_ColumnPropNameInRow="cat_code" msprop:Generator_ColumnPropNameInTable="cat_codeColumn" msprop:Generator_UserColumnName="cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_txt" msprop:Generator_ColumnVarNameInTable="columnname_txt" msprop:Generator_ColumnPropNameInRow="name_txt" msprop:Generator_ColumnPropNameInTable="name_txtColumn" msprop:Generator_UserColumnName="name_txt">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hstly_code" msprop:Generator_ColumnVarNameInTable="columnhstly_code" msprop:Generator_ColumnPropNameInRow="hstly_code" msprop:Generator_ColumnPropNameInTable="hstly_codeColumn" msprop:Generator_UserColumnName="hstly_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="popis" msprop:Generator_ColumnVarNameInTable="columnpopis" msprop:Generator_ColumnPropNameInRow="popis" msprop:Generator_ColumnPropNameInTable="popisColumn" msprop:Generator_UserColumnName="popis">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_type_id" msprop:Generator_ColumnVarNameInTable="columnobj_type_id" msprop:Generator_ColumnPropNameInRow="obj_type_id" msprop:Generator_ColumnPropNameInTable="obj_type_idColumn" msprop:Generator_UserColumnName="obj_type_id" type="xs:decimal" />
+              <xs:element name="is_mil_post" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnis_mil_post" msprop:Generator_ColumnPropNameInRow="is_mil_post" msprop:Generator_ColumnPropNameInTable="is_mil_postColumn" msprop:Generator_UserColumnName="is_mil_post" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CONTXT_ORG_STRUCT_DET" msprop:Generator_TableClassName="CONTXT_ORG_STRUCT_DETDataTable" msprop:Generator_TableVarName="tableCONTXT_ORG_STRUCT_DET" msprop:Generator_TablePropName="CONTXT_ORG_STRUCT_DET" msprop:Generator_RowDeletingName="CONTXT_ORG_STRUCT_DETRowDeleting" msprop:Generator_RowChangingName="CONTXT_ORG_STRUCT_DETRowChanging" msprop:Generator_RowEvHandlerName="CONTXT_ORG_STRUCT_DETRowChangeEventHandler" msprop:Generator_RowDeletedName="CONTXT_ORG_STRUCT_DETRowDeleted" msprop:Generator_UserTableName="CONTXT_ORG_STRUCT_DET" msprop:Generator_RowChangedName="CONTXT_ORG_STRUCT_DETRowChanged" msprop:Generator_RowEvArgName="CONTXT_ORG_STRUCT_DETRowChangeEvent" msprop:Generator_RowClassName="CONTXT_ORG_STRUCT_DETRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="org_id" msprop:Generator_ColumnVarNameInTable="columnorg_id" msprop:Generator_ColumnPropNameInRow="org_id" msprop:Generator_ColumnPropNameInTable="org_idColumn" msprop:Generator_UserColumnName="org_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="org_ix" msprop:Generator_ColumnVarNameInTable="columnorg_ix" msprop:Generator_ColumnPropNameInRow="org_ix" msprop:Generator_ColumnPropNameInTable="org_ixColumn" msprop:Generator_UserColumnName="org_ix" type="xs:decimal" minOccurs="0" />
+              <xs:element name="subj_id" msprop:Generator_ColumnVarNameInTable="columnsubj_id" msprop:Generator_ColumnPropNameInRow="subj_id" msprop:Generator_ColumnPropNameInTable="subj_idColumn" msprop:Generator_UserColumnName="subj_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="obj_id" msprop:Generator_ColumnVarNameInTable="columnobj_id" msprop:Generator_ColumnPropNameInRow="obj_id" msprop:Generator_ColumnPropNameInTable="obj_idColumn" msprop:Generator_UserColumnName="obj_id" type="xs:decimal" minOccurs="0" />
+              <xs:element name="obj_name" msprop:Generator_ColumnVarNameInTable="columnobj_name" msprop:Generator_ColumnPropNameInRow="obj_name" msprop:Generator_ColumnPropNameInTable="obj_nameColumn" msprop:Generator_UserColumnName="obj_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_sname" msprop:Generator_ColumnVarNameInTable="columnobj_sname" msprop:Generator_ColumnPropNameInRow="obj_sname" msprop:Generator_ColumnPropNameInTable="obj_snameColumn" msprop:Generator_UserColumnName="obj_sname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obj_cat_code" msprop:Generator_ColumnVarNameInTable="columnobj_cat_code" msprop:Generator_ColumnPropNameInRow="obj_cat_code" msprop:Generator_ColumnPropNameInTable="obj_cat_codeColumn" msprop:Generator_UserColumnName="obj_cat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hstly_code" msprop:Generator_ColumnVarNameInTable="columnhstly_code" msprop:Generator_ColumnPropNameInRow="hstly_code" msprop:Generator_ColumnPropNameInTable="hstly_codeColumn" msprop:Generator_UserColumnName="hstly_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_code" msprop:Generator_ColumnVarNameInTable="columncat_code" msprop:Generator_ColumnPropNameInRow="cat_code" msprop:Generator_ColumnPropNameInTable="cat_codeColumn" msprop:Generator_UserColumnName="cat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subcat_code" msprop:Generator_ColumnVarNameInTable="columnsubcat_code" msprop:Generator_ColumnPropNameInRow="subcat_code" msprop:Generator_ColumnPropNameInTable="subcat_codeColumn" msprop:Generator_UserColumnName="subcat_code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="assoc_type" msprop:Generator_ColumnVarNameInTable="columnassoc_type" msprop:Generator_ColumnPropNameInRow="assoc_type" msprop:Generator_ColumnPropNameInTable="assoc_typeColumn" msprop:Generator_UserColumnName="assoc_type" type="xs:int" minOccurs="0" />
+              <xs:element name="lvl" msprop:Generator_ColumnVarNameInTable="columnlvl" msprop:Generator_ColumnPropNameInRow="lvl" msprop:Generator_ColumnPropNameInTable="lvlColumn" msprop:Generator_UserColumnName="lvl" type="xs:int" minOccurs="0" />
+              <xs:element name="org_name" msprop:Generator_ColumnVarNameInTable="columnorg_name" msprop:Generator_ColumnPropNameInRow="org_name" msprop:Generator_ColumnPropNameInTable="org_nameColumn" msprop:Generator_UserColumnName="org_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_code_NAZEV" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncat_code_NAZEV" msprop:Generator_ColumnPropNameInRow="cat_code_NAZEV" msprop:Generator_ColumnPropNameInTable="cat_code_NAZEVColumn" msprop:Generator_UserColumnName="cat_code_NAZEV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subcat_code_NAZEV" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsubcat_code_NAZEV" msprop:Generator_ColumnPropNameInRow="subcat_code_NAZEV" msprop:Generator_ColumnPropNameInTable="subcat_code_NAZEVColumn" msprop:Generator_UserColumnName="subcat_code_NAZEV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ORG_FREE_CONTXT" msprop:Generator_TableClassName="ORG_FREE_CONTXTDataTable" msprop:Generator_TableVarName="tableORG_FREE_CONTXT" msprop:Generator_TablePropName="ORG_FREE_CONTXT" msprop:Generator_RowDeletingName="ORG_FREE_CONTXTRowDeleting" msprop:Generator_RowChangingName="ORG_FREE_CONTXTRowChanging" msprop:Generator_RowEvHandlerName="ORG_FREE_CONTXTRowChangeEventHandler" msprop:Generator_RowDeletedName="ORG_FREE_CONTXTRowDeleted" msprop:Generator_UserTableName="ORG_FREE_CONTXT" msprop:Generator_RowChangedName="ORG_FREE_CONTXTRowChanged" msprop:Generator_RowEvArgName="ORG_FREE_CONTXTRowChangeEvent" msprop:Generator_RowClassName="ORG_FREE_CONTXTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="contxt_id" msprop:Generator_ColumnVarNameInTable="columncontxt_id" msprop:Generator_ColumnPropNameInRow="contxt_id" msprop:Generator_ColumnPropNameInTable="contxt_idColumn" msprop:Generator_UserColumnName="contxt_id" type="xs:decimal" />
+              <xs:element name="obj_item_id" msprop:Generator_ColumnVarNameInTable="columnobj_item_id" msprop:Generator_ColumnPropNameInRow="obj_item_id" msprop:Generator_ColumnPropNameInTable="obj_item_idColumn" msprop:Generator_UserColumnName="obj_item_id" type="xs:decimal" />
+              <xs:element name="cat_code" msprop:Generator_ColumnVarNameInTable="columncat_code" msprop:Generator_ColumnPropNameInRow="cat_code" msprop:Generator_ColumnPropNameInTable="cat_codeColumn" msprop:Generator_UserColumnName="cat_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name_txt" msprop:Generator_ColumnVarNameInTable="columnname_txt" msprop:Generator_ColumnPropNameInRow="name_txt" msprop:Generator_ColumnPropNameInTable="name_txtColumn" msprop:Generator_UserColumnName="name_txt">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hstly_code" msprop:Generator_ColumnVarNameInTable="columnhstly_code" msprop:Generator_ColumnPropNameInRow="hstly_code" msprop:Generator_ColumnPropNameInTable="hstly_codeColumn" msprop:Generator_UserColumnName="hstly_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="is_mil_post" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnis_mil_post" msprop:Generator_ColumnPropNameInRow="is_mil_post" msprop:Generator_ColumnPropNameInTable="is_mil_postColumn" msprop:Generator_UserColumnName="is_mil_post" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Context" />
+      <xs:field xpath="mstns:contxt_id" />
+    </xs:unique>
+    <xs:unique name="ContextAssoc_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ContextAssoc" />
+      <xs:field xpath="mstns:subj_contxt_id" />
+      <xs:field xpath="mstns:obj_contxt_id" />
+    </xs:unique>
+    <xs:unique name="Z_TRASH_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Z_TRASH" />
+      <xs:field xpath="mstns:contxt_id" />
+    </xs:unique>
+    <xs:unique name="CONTXT_ACT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CONTXT_ACT" />
+      <xs:field xpath="mstns:contxt_id" />
+      <xs:field xpath="mstns:act_id" />
+    </xs:unique>
+    <xs:unique name="CONTXT_OBJ_ITEM_FREE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CONTXT_OBJ_ITEM_FREE" />
+      <xs:field xpath="mstns:contxt_id" />
+      <xs:field xpath="mstns:obj_item_id" />
+    </xs:unique>
+    <xs:unique name="ORG_FREE_CONTXT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ORG_FREE_CONTXT" />
+      <xs:field xpath="mstns:contxt_id" />
+      <xs:field xpath="mstns:obj_item_id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="ContextAssoc_ContextAssoc" msdata:parent="ContextAssoc" msdata:child="ContextAssoc" msdata:parentkey="subj_contxt_id" msdata:childkey="obj_contxt_id" msprop:Generator_UserChildTable="ContextAssoc" msprop:Generator_ChildPropName="GetContextAssocRows" msprop:Generator_UserRelationName="ContextAssoc_ContextAssoc" msprop:Generator_RelationVarName="relationContextAssoc_ContextAssoc" msprop:Generator_UserParentTable="ContextAssoc" msprop:Generator_ParentPropName="ContextAssocRowParent" />
+      <msdata:Relationship name="Context_ContextAssoc" msdata:parent="Context" msdata:child="ContextAssoc" msdata:parentkey="contxt_id" msdata:childkey="subj_contxt_id" msprop:Generator_UserChildTable="ContextAssoc" msprop:Generator_ChildPropName="GetContextAssocRowsByContext_ContextAssoc" msprop:Generator_UserRelationName="Context_ContextAssoc" msprop:Generator_ParentPropName="ContextRowByContext_ContextAssoc" msprop:Generator_RelationVarName="relationContext_ContextAssoc" msprop:Generator_UserParentTable="Context" />
+      <msdata:Relationship name="Context_ContextAssoc1" msdata:parent="Context" msdata:child="ContextAssoc" msdata:parentkey="contxt_id" msdata:childkey="obj_contxt_id" msprop:Generator_UserChildTable="ContextAssoc" msprop:Generator_ChildPropName="GetContextAssocRowsByContext_ContextAssoc1" msprop:Generator_UserRelationName="Context_ContextAssoc1" msprop:Generator_ParentPropName="ContextRowByContext_ContextAssoc1" msprop:Generator_RelationVarName="relationContext_ContextAssoc1" msprop:Generator_UserParentTable="Context" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
