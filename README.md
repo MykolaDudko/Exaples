@@ -1,2 +1,2 @@
-# Exaples
+# WPF - Vnoreny Strom TreeView
 WPF - TreeView
